@@ -1,1 +1,118 @@
-this is an index.html file
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="englih" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="img-item">
+            <img class="img" src="profile photo.jpg" alt="profile photo">
+        </div>
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title"></h1>
+            </section>
+            <section class="contacts" id="profile">
+                <h2 class="section-title">Contacts:</h2>
+                <ul>
+                    <li>Location: Ufa, Russia</li>
+                    <li>Email: amaliyaaprel@gmail.com</li>
+                    <li>GitHub: aftakhova</li>
+                </ul>
+            </section>
+            <section class="summary" id="profile">
+                <h2 class="section-title">About me</h2>
+                <p>I intent to learn Frontend-Development at RS School. I believe this course is a good start to my way to my dream-job. My goal is to get and develop new skills. </p>
+            </section>
+            <section class="skills" id="profile">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GitHub, Git</li>
+                    <li>VS Code</li>
+                </ul>
+            </section>
+            <section class="code" id="profile">
+                <h2 class="section-title">Code Example></h2>
+                <p><code>
+                    function noSpace(x){<br>
+                        &#160;let i = 0;<br>
+                        &#160; let result = '';<br>
+                        &#160;while (i < x.length) {<br>
+                            &#160;if (x[i] === ' ') {<br>
+                                &#160;result = `${result}`; <br>
+                         }<br>
+                         &#160;else {<br>
+                            &#160;result = `${result}${x[i]}`;<br>
+                         }<br>
+                         &#160;++i;<br>
+                        }<br>
+                        &#160;return result;<br>
+                </code></p>
+            </section>
+            <section class="courses" id="profile">
+                <h2 class="section-title">Courses</h2>
+                <p>
+                    Hexlet:
+                    <ul>
+                        <li>HTML/CSS basics</li>
+                        <li>JavaScript basics</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="projects" id="profile">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li>CV project <a href="https://aftakhova.github.io/rsschool-cv/cv">https://aftakhova.github.io/rsschool-cv/cv</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="profile">
+                <h2 class="section-title">Education</h2>
+                <p>I intent to study Applied Computer Science</p>
+            </section>
+            <section class="english" id="profile">
+                <h2 class="section-title">English</h2>
+                <p>Languages:
+                    <ul>
+                        <li>English - B1 (I had practice while taking a German Language Course but not with native speakers)
+                        </li>
+                        <li>German - B2 (Goethe-Zertifikat B2)</li>
+                        <li>Russian - native</li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container"></div>
+    </footer>
+</body>
+
+</html>
