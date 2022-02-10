@@ -109,17 +109,17 @@ body {
         padding: none;
         margin: 5px;
     }
-    .header {
+    .nav-list {
         display: flex;
-        flex-direction: row;
-        justify-content: stretch;
-        overflow-x: scroll;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
-    .footer {
+    .footer-block {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        overflow-x: scroll;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
     .main {
         display: flex;
@@ -131,7 +131,12 @@ body {
         margin-inline-start: 0;
     }
     .code {
-        width: 150%;
+        display: block;
+        box-sizing: border-box;
+        height: 450px;
+        width: 300px;
+        overflow-x: scroll;
+        overflow-y: scroll;
     }
     .projects {
         width: 80%;
@@ -144,8 +149,8 @@ body {
     width: 20%;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-end: 40px;
-    margin-inline-start: 40px;
+    margin-inline-end: 1em;
+    margin-inline-start: 1em;
 }
 
 .img {
