@@ -98,6 +98,10 @@ body {
     .section {
         width: 100%;
     }
+    header {
+    display: block;
+    overflow-x: scroll;
+    }
     .nav-list {
         display: block;
         overflow-x: scroll;
