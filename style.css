@@ -104,14 +104,6 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
-    .img-item {
-        display: block;
-        margin: 10px;
-    }
-    .main-container {
-        display: block;
-        margin: 10px;
-    }
 }
 
 .img-item {
