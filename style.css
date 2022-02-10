@@ -99,10 +99,7 @@ body {
         width: 100%;
     }
     .nav-list {
-        display: flex;
         overflow-x: scroll;
-        flex-direction: column;
-        align-items: flex-start;
     }
 }
 
