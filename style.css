@@ -99,6 +99,7 @@ body {
         width: 100%;
     }
     .nav-list {
+        display: block;
         overflow-x: scroll;
     }
 }
