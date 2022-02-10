@@ -94,11 +94,14 @@ body {
     color: #3c1e10;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 912px) {
     .section {
         width: 100%;
     }
     .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
         overflow-x: scroll;
     }
 }
