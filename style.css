@@ -51,6 +51,7 @@ body {
     width: 50%;
     float: left;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 .section-title {
@@ -59,6 +60,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #3c1e10;
+    border-bottom: 1px solid #3c1e10;
+    padding-bottom: 3px;
 }
 
 .nav-list {
@@ -95,6 +98,9 @@ body {
     .section {
         width: 100%;
     }
+    header {
+        overflow: visible;
+    }
 }
 
 .img-item {
@@ -111,4 +117,14 @@ body {
     width: 359.8px;
     height: 465.8px;
     box-shadow: 0 0 4px #666;
+}
+
+code {
+    display: block;
+    background: #dbe5f0;
+    box-shadow: #666;
+    font-size: 12pt;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 20px;
 }
