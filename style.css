@@ -98,8 +98,8 @@ body {
     .section {
         width: 100%;
     }
-    header {
-        overflow: visible;
+    .nav {
+        overflow: scroll;
     }
 }
 
