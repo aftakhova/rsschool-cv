@@ -51,6 +51,7 @@ body {
     width: 50%;
     float: left;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 .section-title {
@@ -59,6 +60,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #3c1e10;
+    border-bottom: 1px solid #3c1e10;
+    padding-bottom: 3px;
 }
 
 .nav-list {
@@ -81,6 +84,15 @@ body {
     color: #3c1e10;
 }
 
+.link {
+    text-decoration: none;
+    color: #b55a30;
+}
+
+.link:hover {
+    color: #3c1e10;
+}
+
 .section-item a {
     color: #b55a30;
     text-decoration: none;
@@ -91,9 +103,38 @@ body {
     color: #3c1e10;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .section {
         width: 100%;
+        padding: none;
+        margin: 5px;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        overflow-x: scroll;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        overflow-x: scroll;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .img-item {
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+    }
+    .code {
+        width: 150%;
+    }
+    .projects {
+        width: 80%;
     }
 }
 
@@ -103,12 +144,22 @@ body {
     width: 20%;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 40px;
     margin-inline-end: 40px;
+    margin-inline-start: 40px;
 }
 
 .img {
     width: 359.8px;
     height: 465.8px;
     box-shadow: 0 0 4px #666;
+}
+
+code {
+    display: block;
+    background: #dbe5f0;
+    box-shadow: #666;
+    font-size: 12pt;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 20px;
 }
