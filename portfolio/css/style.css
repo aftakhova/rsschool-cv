@@ -1,1 +1,856 @@
-
+                                                                                      /*reset.css styles start */
+                                                                                      
+                                                                                      html,
+                                                                                      html,
+                                                                                      body,
+                                                                                      div,
+                                                                                      span,
+                                                                                      applet,
+                                                                                      object,
+                                                                                      iframe,
+                                                                                      h1,
+                                                                                      h2,
+                                                                                      h3,
+                                                                                      h4,
+                                                                                      h5,
+                                                                                      h6,
+                                                                                      p,
+                                                                                      blockquote,
+                                                                                      pre,
+                                                                                      a,
+                                                                                      abbr,
+                                                                                      acronym,
+                                                                                      address,
+                                                                                      big,
+                                                                                      cite,
+                                                                                      code,
+                                                                                      del,
+                                                                                      dfn,
+                                                                                      em,
+                                                                                      img,
+                                                                                      ins,
+                                                                                      kbd,
+                                                                                      q,
+                                                                                      s,
+                                                                                      samp,
+                                                                                      small,
+                                                                                      strike,
+                                                                                      strong,
+                                                                                      sub,
+                                                                                      sup,
+                                                                                      tt,
+                                                                                      var,
+                                                                                      b,
+                                                                                      u,
+                                                                                      i,
+                                                                                      center,
+                                                                                      dl,
+                                                                                      dt,
+                                                                                      dd,
+                                                                                      ol,
+                                                                                      ul,
+                                                                                      li,
+                                                                                      fieldset,
+                                                                                      form,
+                                                                                      label,
+                                                                                      legend,
+                                                                                      table,
+                                                                                      caption,
+                                                                                      tbody,
+                                                                                      tfoot,
+                                                                                      thead,
+                                                                                      tr,
+                                                                                      th,
+                                                                                      td,
+                                                                                      article,
+                                                                                      aside,
+                                                                                      canvas,
+                                                                                      details,
+                                                                                      embed,
+                                                                                      figure,
+                                                                                      figcaption,
+                                                                                      footer,
+                                                                                      header,
+                                                                                      hgroup,
+                                                                                      menu,
+                                                                                      nav,
+                                                                                      output,
+                                                                                      ruby,
+                                                                                      section,
+                                                                                      summary,
+                                                                                      time,
+                                                                                      mark,
+                                                                                      audio,
+                                                                                      video {
+                                                                                          margin: 0;
+                                                                                          padding: 0;
+                                                                                          border: 0;
+                                                                                          font-size: 100%;
+                                                                                          font: inherit;
+                                                                                          vertical-align: baseline;
+                                                                                      }
+                                                                                      /* make sure to set some focus styles for accessibility */
+                                                                                      
+                                                                                       :focus {
+                                                                                          outline: 0;
+                                                                                      }
+                                                                                      /* HTML5 display-role reset for older browsers */
+                                                                                      
+                                                                                      article,
+                                                                                      aside,
+                                                                                      details,
+                                                                                      figcaption,
+                                                                                      figure,
+                                                                                      footer,
+                                                                                      header,
+                                                                                      hgroup,
+                                                                                      menu,
+                                                                                      nav,
+                                                                                      section {
+                                                                                          display: block;
+                                                                                      }
+                                                                                      
+                                                                                      body {
+                                                                                          line-height: 1;
+                                                                                      }
+                                                                                      
+                                                                                      ol,
+                                                                                      ul {
+                                                                                          list-style: none;
+                                                                                      }
+                                                                                      
+                                                                                      blockquote,
+                                                                                      q {
+                                                                                          quotes: none;
+                                                                                      }
+                                                                                      
+                                                                                      blockquote:before,
+                                                                                      blockquote:after,
+                                                                                      q:before,
+                                                                                      q:after {
+                                                                                          content: '';
+                                                                                          content: none;
+                                                                                      }
+                                                                                      
+                                                                                      table {
+                                                                                          border-collapse: collapse;
+                                                                                          border-spacing: 0;
+                                                                                      }
+                                                                                      
+                                                                                      input[type=search]::-webkit-search-cancel-button,
+                                                                                      input[type=search]::-webkit-search-decoration,
+                                                                                      input[type=search]::-webkit-search-results-button,
+                                                                                      input[type=search]::-webkit-search-results-decoration {
+                                                                                          -webkit-appearance: none;
+                                                                                          -moz-appearance: none;
+                                                                                      }
+                                                                                      
+                                                                                      input[type=search] {
+                                                                                          -webkit-appearance: none;
+                                                                                          -moz-appearance: none;
+                                                                                          -webkit-box-sizing: content-box;
+                                                                                          -moz-box-sizing: content-box;
+                                                                                          box-sizing: content-box;
+                                                                                      }
+                                                                                      
+                                                                                      textarea {
+                                                                                          overflow: auto;
+                                                                                          vertical-align: top;
+                                                                                          resize: vertical;
+                                                                                      }
+                                                                                      
+                                                                                      audio,
+                                                                                      canvas,
+                                                                                      video {
+                                                                                          display: inline-block;
+                                                                                          *display: inline;
+                                                                                          *zoom: 1;
+                                                                                          max-width: 100%;
+                                                                                      }
+                                                                                      
+                                                                                      audio:not([controls]) {
+                                                                                          display: none;
+                                                                                          height: 0;
+                                                                                      }
+                                                                                      
+                                                                                      [hidden] {
+                                                                                          display: none;
+                                                                                      }
+                                                                                      
+                                                                                      html {
+                                                                                          font-size: 100%;
+                                                                                          /* 1 */
+                                                                                          -webkit-text-size-adjust: 100%;
+                                                                                          /* 2 */
+                                                                                          -ms-text-size-adjust: 100%;
+                                                                                          /* 2 */
+                                                                                      }
+                                                                                      
+                                                                                      a:focus {
+                                                                                          outline: thin dotted;
+                                                                                      }
+                                                                                      
+                                                                                      a:active,
+                                                                                      a:hover {
+                                                                                          outline: 0;
+                                                                                      }
+                                                                                      
+                                                                                      */ img {
+                                                                                          border: 0;
+                                                                                          /* 1 */
+                                                                                          -ms-interpolation-mode: bicubic;
+                                                                                          /* 2 */
+                                                                                      }
+                                                                                      
+                                                                                      figure {
+                                                                                          margin: 0;
+                                                                                      }
+                                                                                      
+                                                                                      form {
+                                                                                          margin: 0;
+                                                                                      }
+                                                                                      
+                                                                                      fieldset {
+                                                                                          border: 1px solid #c0c0c0;
+                                                                                          margin: 0 2px;
+                                                                                          padding: 0.35em 0.625em 0.75em;
+                                                                                      }
+                                                                                      
+                                                                                      legend {
+                                                                                          border: 0;
+                                                                                          /* 1 */
+                                                                                          padding: 0;
+                                                                                          white-space: normal;
+                                                                                          /* 2 */
+                                                                                          *margin-left: -7px;
+                                                                                          /* 3 */
+                                                                                      }
+                                                                                      
+                                                                                      */ button,
+                                                                                      input,
+                                                                                      select,
+                                                                                      textarea {
+                                                                                          font-size: 100%;
+                                                                                          /* 1 */
+                                                                                          margin: 0;
+                                                                                          /* 2 */
+                                                                                          vertical-align: baseline;
+                                                                                          /* 3 */
+                                                                                          *vertical-align: middle;
+                                                                                          /* 3 */
+                                                                                      }
+                                                                                      
+                                                                                      */ button,
+                                                                                      input {
+                                                                                          line-height: normal;
+                                                                                      }
+                                                                                      
+                                                                                      */ button,
+                                                                                      select {
+                                                                                          text-transform: none;
+                                                                                      }
+                                                                                      
+                                                                                      */ button,
+                                                                                      html input[type="button"],
+                                                                                      /* 1 */
+                                                                                      
+                                                                                      input[type="reset"],
+                                                                                      input[type="submit"] {
+                                                                                          -webkit-appearance: button;
+                                                                                          /* 2 */
+                                                                                          cursor: pointer;
+                                                                                          /* 3 */
+                                                                                          *overflow: visible;
+                                                                                          /* 4 */
+                                                                                      }
+                                                                                      
+                                                                                      button[disabled],
+                                                                                      html input[disabled] {
+                                                                                          cursor: default;
+                                                                                      }
+                                                                                      
+                                                                                      input[type="checkbox"],
+                                                                                      input[type="radio"] {
+                                                                                          box-sizing: border-box;
+                                                                                          /* 1 */
+                                                                                          padding: 0;
+                                                                                          /* 2 */
+                                                                                          *height: 13px;
+                                                                                          /* 3 */
+                                                                                          *width: 13px;
+                                                                                          /* 3 */
+                                                                                      }
+                                                                                      
+                                                                                      input[type="search"] {
+                                                                                          -webkit-appearance: textfield;
+                                                                                          /* 1 */
+                                                                                          -moz-box-sizing: content-box;
+                                                                                          -webkit-box-sizing: content-box;
+                                                                                          /* 2 */
+                                                                                          box-sizing: content-box;
+                                                                                      }
+                                                                                      /** * Remove inner padding and search cancel button in Safari 5 and Chrome * on OS X. */
+                                                                                      
+                                                                                      input[type="search"]::-webkit-search-cancel-button,
+                                                                                      input[type="search"]::-webkit-search-decoration {
+                                                                                          -webkit-appearance: none;
+                                                                                      }
+                                                                                      /** * Remove inner padding and border in Firefox 3+. */
+                                                                                      
+                                                                                      button::-moz-focus-inner,
+                                                                                      input::-moz-focus-inner {
+                                                                                          border: 0;
+                                                                                          padding: 0;
+                                                                                      }
+                                                                                      
+                                                                                      textarea {
+                                                                                          overflow: auto;
+                                                                                          /* 1 */
+                                                                                          vertical-align: top;
+                                                                                          /* 2 */
+                                                                                      }
+                                                                                      /*** Remove most spacing between table cells.*/
+                                                                                      
+                                                                                      table {
+                                                                                          border-collapse: collapse;
+                                                                                          border-spacing: 0;
+                                                                                      }
+                                                                                      
+                                                                                      html,
+                                                                                      button,
+                                                                                      input,
+                                                                                      select,
+                                                                                      textarea {
+                                                                                          color: #222;
+                                                                                      }
+                                                                                      
+                                                                                       ::-moz-selection {
+                                                                                          background: #b3d4fc;
+                                                                                          text-shadow: none;
+                                                                                      }
+                                                                                      
+                                                                                       ::selection {
+                                                                                          background: #b3d4fc;
+                                                                                          text-shadow: none;
+                                                                                      }
+                                                                                      
+                                                                                      img {
+                                                                                          vertical-align: middle;
+                                                                                      }
+                                                                                      
+                                                                                      fieldset {
+                                                                                          border: 0;
+                                                                                          margin: 0;
+                                                                                          padding: 0;
+                                                                                      }
+                                                                                      
+                                                                                      textarea {
+                                                                                          resize: vertical;
+                                                                                      }
+                                                                                      
+                                                                                      .chromeframe {
+                                                                                          margin: 0.2em 0;
+                                                                                          background: #ccc;
+                                                                                          color: #000;
+                                                                                          padding: 0.2em 0;
+                                                                                      }
+                                                                                      /*reset.css styles end */
+                                                                                      /* inter-regular - latin */
+                                                                                      
+                                                                                      @font-face {
+                                                                                          font-family: 'Inter';
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          src: local(''), url('../fonts/inter-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+                                                                                          url('../fonts/inter-v7-latin-regular.woff') format('woff');
+                                                                                          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+                                                                                      }
+                                                                                      /* inter-700 - latin */
+                                                                                      
+                                                                                      @font-face {
+                                                                                          font-family: 'Inter';
+                                                                                          font-style: normal;
+                                                                                          font-weight: 700;
+                                                                                          src: local(''), url('../fonts/inter-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+                                                                                          url('../fonts/inter-v7-latin-700.woff') format('woff');
+                                                                                          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+                                                                                      }
+                                                                                      /* merriweather-regular - latin */
+                                                                                      
+                                                                                      @font-face {
+                                                                                          font-family: 'Merriweather';
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          src: local(''), url('../fonts/merriweather-v28-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+                                                                                          url('../fonts/merriweather-v28-latin-regular.woff') format('woff');
+                                                                                          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+                                                                                      }
+                                                                                      /* merriweather-700 - latin */
+                                                                                      
+                                                                                      @font-face {
+                                                                                          font-family: 'Merriweather';
+                                                                                          font-style: normal;
+                                                                                          font-weight: 700;
+                                                                                          src: local(''), url('../fonts/merriweather-v28-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+                                                                                          url('../fonts/merriweather-v28-latin-700.woff') format('woff');
+                                                                                          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+                                                                                      }
+                                                                                      
+                                                                                      html {
+                                                                                          box-sizing: border-box;
+                                                                                          scroll-behavior: smooth;
+                                                                                      }
+                                                                                      
+                                                                                      body {
+                                                                                          width: 100%;
+                                                                                          font-family: 'Inter';
+                                                                                          font-style: normal;
+                                                                                          font-size: 20px;
+                                                                                          line-height: 40px;
+                                                                                          color: #ffffff;
+                                                                                      }
+                                                                                      
+                                                                                      *,
+                                                                                      *::after,
+                                                                                      *::before {
+                                                                                          box-sizing: inherit;
+                                                                                      }
+                                                                                      
+                                                                                      .wrapper {
+                                                                                          max-width: 1440px;
+                                                                                          margin: 0 auto;
+                                                                                      }
+                                                                                      /* Header styles start */
+                                                                                      
+                                                                                      .header {
+                                                                                          position: fixed;
+                                                                                          top: 0;
+                                                                                          left: 0;
+                                                                                          width: 100%;
+                                                                                      }
+                                                                                      
+                                                                                      .header-wrapper {
+                                                                                          display: flex;
+                                                                                          flex-wrap: wrap;
+                                                                                          align-items: flex-end;
+                                                                                          justify-content: space-between;
+                                                                                      }
+                                                                                      
+                                                                                      .header-logo {
+                                                                                          padding: 25px 20px;
+                                                                                      }
+                                                                                      
+                                                                                      .header-nav {
+                                                                                          padding: 20px;
+                                                                                      }
+                                                                                      
+                                                                                      .header-list {
+                                                                                          display: flex;
+                                                                                          flex-wrap: wrap;
+                                                                                          justify-content: space-between;
+                                                                                      }
+                                                                                      
+                                                                                      .header-switch-lang {
+                                                                                          display: flex;
+                                                                                          flex-wrap: wrap;
+                                                                                          justify-content: space-between;
+                                                                                          font-weight: 700;
+                                                                                      }
+                                                                                      
+                                                                                      .switch-lang:first-child {
+                                                                                          margin-right: 9px;
+                                                                                      }
+                                                                                      
+                                                                                      .switch-lang:last-child {
+                                                                                          margin-left: 8px;
+                                                                                      }
+                                                                                      
+                                                                                      .header-item {
+                                                                                          margin-right: 30px;
+                                                                                      }
+                                                                                      
+                                                                                      .header-item:last-child {
+                                                                                          margin-right: 0;
+                                                                                      }
+                                                                                      
+                                                                                      .header-link,
+                                                                                      .switch-lang {
+                                                                                          line-height: 50px;
+                                                                                          color: #ffffff;
+                                                                                          text-decoration: none;
+                                                                                      }
+                                                                                      
+                                                                                      .header-link:hover,
+                                                                                      .header-link:focus,
+                                                                                      .header-link:active {
+                                                                                          opacity: .75;
+                                                                                      }
+                                                                                      
+                                                                                      .switch-lang:hover,
+                                                                                      .switch-lang:focus,
+                                                                                      .switch-lang:active {
+                                                                                          color: #BDAE82;
+                                                                                      }
+                                                                                      /* Header styles end */
+                                                                                      /* Main styles start */
+                                                                                      
+                                                                                      .main {
+                                                                                          background-color: #000000;
+                                                                                      }
+                                                                                      /* Main styles end */
+                                                                                      /* Hero styles start */
+                                                                                      
+                                                                                      .hero {
+                                                                                          height: 910px;
+                                                                                          background: url(../img/svg/intro-bg.svg) no-repeat center;
+                                                                                          background-size: cover;
+                                                                                          padding: 250px 860px 330px 80px;
+                                                                                      }
+                                                                                      
+                                                                                      .hero-title {
+                                                                                          max-width: 500px;
+                                                                                          font-family: 'Merriweather';
+                                                                                          font-size: 60px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 700;
+                                                                                          line-height: 120px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: left;
+                                                                                          color: #ffffff;
+                                                                                          margin-bottom: 10px;
+                                                                                      }
+                                                                                      
+                                                                                      .hero-text {
+                                                                                          max-width: 470px;
+                                                                                          font-family: 'Inter';
+                                                                                          font-size: 20px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          line-height: 40px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: left;
+                                                                                          color: #ffffff;
+                                                                                          margin-bottom: 25px;
+                                                                                      }
+                                                                                      
+                                                                                      .btn {
+                                                                                          max-width: 220px;
+                                                                                          background: #BDAE82;
+                                                                                          font-family: 'Inter';
+                                                                                          font-size: 20px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          line-height: 40px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #000000;
+                                                                                          padding: 8px 72px 7px 71px;
+                                                                                      }
+                                                                                      
+                                                                                      .btn:hover,
+                                                                                      .btn:focus,
+                                                                                      .btn:active {
+                                                                                          opacity: .75;
+                                                                                      }
+                                                                                      /* Intro styles end */
+                                                                                      /*Section-title styles start */
+                                                                                      
+                                                                                      .section-title {
+                                                                                          height: 80px;
+                                                                                          max-width: 700px;
+                                                                                          padding-left: 370px;
+                                                                                          padding-top: 100px;
+                                                                                          border-radius: 0px;
+                                                                                          font-family: 'Merriweather';
+                                                                                          font-size: 40px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 700;
+                                                                                          line-height: 80px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #BDAE82;
+                                                                                          margin-bottom: 140px;
+                                                                                      }
+                                                                                      
+                                                                                      .section-title-line {
+                                                                                          width: 700px;
+                                                                                          height: 80px;
+                                                                                          font-size: 20px;
+                                                                                          font-weight: bold;
+                                                                                          text-align: center;
+                                                                                          position: relative;
+                                                                                      }
+                                                                                      
+                                                                                      .section-title-line span {
+                                                                                          background-color: black;
+                                                                                          position: relative;
+                                                                                          z-index: 1;
+                                                                                          padding: 0px 25px;
+                                                                                      }
+                                                                                      
+                                                                                      .section-title-line:after {
+                                                                                          content: '';
+                                                                                          display: block;
+                                                                                          width: 100%;
+                                                                                          height: 2px;
+                                                                                          background-color: #BDAE82;
+                                                                                          position: absolute;
+                                                                                          top: 50%;
+                                                                                          margin-top: -1px;
+                                                                                          z-index: 0;
+                                                                                      }
+                                                                                      /*Section-title styles end */
+                                                                                      /* Skills styles start */
+                                                                                      
+                                                                                      .skills {
+                                                                                          height: 482px;
+                                                                                      }
+                                                                                      
+                                                                                      .skills-items {
+                                                                                          max-width: 1440px;
+                                                                                          padding-left: 20px;
+                                                                                          padding-right: 20px;
+                                                                                          background-color: #000000;
+                                                                                      }
+                                                                                      
+                                                                                      .skills-item {
+                                                                                          display: inline-block;
+                                                                                          max-width: 320px;
+                                                                                          width: 320px;
+                                                                                          height: 240px;
+                                                                                          margin-right: 30px;
+                                                                                          vertical-align: top;
+                                                                                      }
+                                                                                      
+                                                                                      .skills-item:last-child {
+                                                                                          margin-right: 0;
+                                                                                      }
+                                                                                      
+                                                                                      .camera1 {
+                                                                                          padding-left: 129px;
+                                                                                      }
+                                                                                      
+                                                                                      .video1 {
+                                                                                          padding-left: 130px;
+                                                                                      }
+                                                                                      
+                                                                                      .image1 {
+                                                                                          padding-left: 127px;
+                                                                                      }
+                                                                                      
+                                                                                      .mic1 {
+                                                                                          padding-left: 144px;
+                                                                                      }
+                                                                                      
+                                                                                      .skills-title {
+                                                                                          margin-top: 50px;
+                                                                                          margin-bottom: 20px;
+                                                                                          font-family: 'Inter';
+                                                                                          font-size: 20px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 700;
+                                                                                          line-height: 40px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #ffffff;
+                                                                                      }
+                                                                                      
+                                                                                      .skills-text {
+                                                                                          font-family: 'Inter';
+                                                                                          font-size: 18px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          line-height: 36px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #ffffff;
+                                                                                      }
+                                                                                      /* Skills styles end */
+                                                                                      /*Portfolio styles start */
+                                                                                      
+                                                                                      .portfolio {
+                                                                                          width: 1440px;
+                                                                                          height: 1500px;
+                                                                                          background-color: #000000;
+                                                                                          margin: 0 auto;
+                                                                                      }
+                                                                                      
+                                                                                      .portfolio-btns {
+                                                                                          width: 915px;
+                                                                                          height: 55px;
+                                                                                          margin: 0 auto;
+                                                                                          margin-bottom: 60px;
+                                                                                      }
+                                                                                      
+                                                                                      .portfolio-btn {
+                                                                                          display: inline-block;
+                                                                                          max-width: 220px;
+                                                                                          width: 220px;
+                                                                                          margin-right: 5px;
+                                                                                          text-align: center;
+                                                                                          background-color: #000000;
+                                                                                          border: 1px solid #BDAE82;
+                                                                                          font-family: 'Inter';
+                                                                                          font-size: 20px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          line-height: 40px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #BDAE82;
+                                                                                          padding: 8px 73px 7px 73px;
+                                                                                      }
+                                                                                      
+                                                                                      .portfolio-btn:hover,
+                                                                                      .portfolio-btn:active {
+                                                                                          background-color: #BDAE82;
+                                                                                          color: #000000;
+                                                                                      }
+                                                                                      
+                                                                                      .portfolio-btn:last-child {
+                                                                                          background-color: #BDAE82;
+                                                                                          color: #000000;
+                                                                                          margin-right: 0;
+                                                                                      }
+                                                                                      
+                                                                                      .portfolio-img {
+                                                                                          display: inline-block;
+                                                                                          margin-right: 25px;
+                                                                                          margin-bottom: 25px;
+                                                                                          height: 560px;
+                                                                                          width: 450px;
+                                                                                          border-radius: 0px;
+                                                                                      }
+                                                                                      
+                                                                                      .portfolio-img:nth-child(3) {
+                                                                                          margin-right: 0;
+                                                                                      }
+                                                                                      
+                                                                                      .portfolio-img:last-child {
+                                                                                          margin-right: 0;
+                                                                                      }
+                                                                                      /*Portfolio styles end */
+                                                                                      /* Video styles start */
+                                                                                      
+                                                                                      .video {
+                                                                                          width: 1400px;
+                                                                                          height: 945px;
+                                                                                          background-color: #000000;
+                                                                                          margin: 0 auto;
+                                                                                      }
+                                                                                      
+                                                                                      .video-player {
+                                                                                          width: 1400px;
+                                                                                          height: 705px;
+                                                                                          background: url(../img/svg/video-player-bg.svg);
+                                                                                      }
+                                                                                      
+                                                                                      .video-play-hover {
+                                                                                          padding: 288px 634.14px 287px 634px;
+                                                                                      }
+                                                                                      /* Video styles end */
+                                                                                      /*Price styles start */
+                                                                                      
+                                                                                      .price {
+                                                                                          width: 1440px;
+                                                                                          height: 845px;
+                                                                                          background-color: #000000;
+                                                                                          margin: 0 auto;
+                                                                                      }
+                                                                                      
+                                                                                      .price-items {
+                                                                                          max-width: 1440px;
+                                                                                          padding-right: 15px;
+                                                                                          padding-left: 15px;
+                                                                                          background-color: #000000;
+                                                                                      }
+                                                                                      
+                                                                                      .price-item {
+                                                                                          display: inline-block;
+                                                                                          width: 450px;
+                                                                                          height: 505px;
+                                                                                          margin-right: 20px;
+                                                                                          vertical-align: top;
+                                                                                          border: 2px solid #BDAE82;
+                                                                                      }
+                                                                                      
+                                                                                      .price-item:last-child {
+                                                                                          margin-right: 0pc;
+                                                                                      }
+                                                                                      
+                                                                                      .price-title {
+                                                                                          font-family: 'Merriweather';
+                                                                                          font-size: 28px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 700;
+                                                                                          line-height: 56px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          margin-top: 43px;
+                                                                                          margin-bottom: 20px;
+                                                                                          color: #ffffff;
+                                                                                      }
+                                                                                      
+                                                                                      .price-count {
+                                                                                          font-family: 'Merriweather';
+                                                                                          font-size: 24px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 700;
+                                                                                          line-height: 48px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #BDAE82;
+                                                                                          margin-bottom: 20px;
+                                                                                      }
+                                                                                      
+                                                                                      .frame {
+                                                                                          font-family: 'Inter';
+                                                                                          font-size: 18px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          line-height: 36px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #ffffff;
+                                                                                          margin-bottom: 40px;
+                                                                                      }
+                                                                                      
+                                                                                      .order-btn {
+                                                                                          max-width: 220px;
+                                                                                          height: 55px;
+                                                                                          background: #BDAE82;
+                                                                                          font-family: 'Inter';
+                                                                                          font-size: 20px;
+                                                                                          font-style: normal;
+                                                                                          font-weight: 400;
+                                                                                          line-height: 40px;
+                                                                                          letter-spacing: 0em;
+                                                                                          text-align: center;
+                                                                                          color: #000000;
+                                                                                          padding: 8px 30px 7px;
+                                                                                          margin-left: 115px;
+                                                                                          margin-bottom: 43px;
+                                                                                      }
+                                                                                      
+                                                                                      .order-btn:hover,
+                                                                                      .order-btn:focus,
+                                                                                      .order-btn:active {
+                                                                                          opacity: .75;
+                                                                                      }
+                                                                                      /* Price styles end */
+                                                                                      /*Contact styles start */
+                                                                                      
+                                                                                      .contacts {
+                                                                                          width: 1440px;
+                                                                                          height: 700px;
+                                                                                          background: url(../img/contacts-bg.jpg);
+                                                                                      }
+                                                                                      /*Contacts styles end */
+                                                                                      /* Footer styles start */
+                                                                                      
+                                                                                      .footer {
+                                                                                          width: 100%;
+                                                                                          height: 150px;
+                                                                                          background: #000000;
+                                                                                      }
+                                                                                      /* Footer styles end */
